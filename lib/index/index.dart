@@ -29,8 +29,8 @@ class _IndexState extends State<Index> with TickerProviderStateMixin {
         vsync: this,
       ),
       new NavigationIconView(
-        icon: new Icon(Icons.add_shopping_cart),
-        title: new Text("市场"),
+        icon: new Icon(Icons.apps),
+        title: new Text("大学"),
         vsync: this,
       ),
       new NavigationIconView(
@@ -49,6 +49,7 @@ class _IndexState extends State<Index> with TickerProviderStateMixin {
     }
 
     _pageList = <StatefulWidget>[
+      new NoticePage(),
       new NoticePage(),
       new NoticePage(),
       new NoticePage(),

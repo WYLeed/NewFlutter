@@ -24,31 +24,31 @@ dependencies:
   flutter_localizations:
       sdk: flutter
 
-   # 汉字转拼音库 https://github.com/flutterchina/lpinyin
-    lpinyin: ^1.0.6
-    # Dart 常用工具类库 https://github.com/Sky24n/common_utils
-    common_utils: ^1.0.9
-    # Flutter 常用工具类库 https://github.com/Sky24n/flustars
-    flustars: ^0.1.4
-    # Flutter 国际化/多语言库 https://github.com/Sky24n/fluintl
-    fluintl: ^0.1.2
-
-    # https://github.com/renefloor/flutter_cached_network_image
-      cached_network_image: ^0.5.0
-      # https://github.com/flutter/plugins/tree/master/packages/url_launcher
-      url_launcher: ^4.0.1
-      # rxdart https://github.com/ReactiveX/rxdart
-      rxdart: ^0.18.1
-
-
-        # https://github.com/flutterchina/flukit.
-        flukit:
-          git:
-            url: git://github.com/flutterchina/flukit.git
-            path: package_src/
-        flutter_webview_plugin:
-          git:
-            url: git://github.com/Sky24n/flutter_webview_plugin.git
+#   # 汉字转拼音库 https://github.com/flutterchina/lpinyin
+#    lpinyin: ^1.0.6
+#    # Dart 常用工具类库 https://github.com/Sky24n/common_utils
+#    common_utils: ^1.0.9
+#    # Flutter 常用工具类库 https://github.com/Sky24n/flustars
+#    flustars: ^0.1.4
+#    # Flutter 国际化/多语言库 https://github.com/Sky24n/fluintl
+#    fluintl: ^0.1.2
+#
+#    # https://github.com/renefloor/flutter_cached_network_image
+#      cached_network_image: ^0.5.0
+#      # https://github.com/flutter/plugins/tree/master/packages/url_launcher
+#      url_launcher: ^4.0.1
+#      # rxdart https://github.com/ReactiveX/rxdart
+#      rxdart: ^0.18.1
+#
+#
+#        # https://github.com/flutterchina/flukit.
+#        flukit:
+#          git:
+#            url: git://github.com/flutterchina/flukit.git
+#            path: package_src/
+#        flutter_webview_plugin:
+#          git:
+#            url: git://github.com/Sky24n/flutter_webview_plugin.git
 
 #  //http请求框架
 #  dio: ^1.0.9
