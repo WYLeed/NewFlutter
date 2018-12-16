@@ -21,10 +21,43 @@ dependencies:
   cupertino_icons: ^0.1.2
 
 
+  flutter_localizations:
+      sdk: flutter
+
+   # 汉字转拼音库 https://github.com/flutterchina/lpinyin
+    lpinyin: ^1.0.6
+    # Dart 常用工具类库 https://github.com/Sky24n/common_utils
+    common_utils: ^1.0.9
+    # Flutter 常用工具类库 https://github.com/Sky24n/flustars
+    flustars: ^0.1.4
+    # Flutter 国际化/多语言库 https://github.com/Sky24n/fluintl
+    fluintl: ^0.1.2
+
+    # https://github.com/renefloor/flutter_cached_network_image
+      cached_network_image: ^0.5.0
+      # https://github.com/flutter/plugins/tree/master/packages/url_launcher
+      url_launcher: ^4.0.1
+      # rxdart https://github.com/ReactiveX/rxdart
+      rxdart: ^0.18.1
+
+
+        # https://github.com/flutterchina/flukit.
+        flukit:
+          git:
+            url: git://github.com/flutterchina/flukit.git
+            path: package_src/
+        flutter_webview_plugin:
+          git:
+            url: git://github.com/Sky24n/flutter_webview_plugin.git
+
+#  //http请求框架
+#  dio: ^1.0.9
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+
 
 
 # For information on the generic Dart part of this file, see the
@@ -37,6 +70,18 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+        - assets/images/ali_connors.png
+        - assets/images/ali_connors_sml.png
+        - assets/images/qrcode.png
+        - assets/images/icon_wan_android.png
+        - assets/images/ic_launcher_news.png
+        - assets/images/guide1.png
+        - assets/images/guide2.png
+        - assets/images/guide3.png
+        - assets/images/guide4.png
+        - assets/images/splash_bg.png
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
